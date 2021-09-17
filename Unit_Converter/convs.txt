@@ -1,0 +1,12 @@
+15.00 Celsius is: 59.00 Fahrenheit
+98.00 Fahrenheit is: 36.67 Celsius
+Your entered dimensions of 50.00 sqfoot is 4.64 sqmeter
+Your entered dimensions of 60.00 sqmeter is 645.86 sqfoot
+Volume of 45.00 usgallon is 170.33 liter
+Volume of 68.80 liter is 18.18 usgallon
+Your entered weight of 11.00 kgs is 24.26 lbs
+Your entered weight of 12.00 lbs is 5.44 kgs
+Your entered weight of 44.00 kgs is 97.02 lbs
+Your entered weight of 556.00 lbs is 252.15 kgs
+100.00 Celsius is: 212.00 Fahrenheit
+37.00 Fahrenheit is: 2.78 Celsius
