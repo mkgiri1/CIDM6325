@@ -20,7 +20,7 @@
 
 Using `social-auth-app-django`.  However, `django-allauth` is also common and popular. 
 
-Social-auth is very capable and the services provided by it [are now fairly commodity](https://python-social-auth.readthedocs.io/en/latest/backends/index.html#supported-backends).
+Social-auth is very capable [python-social-auth](https://python-social-auth.readthedocs.io/en/latest/backends/index.html#supported-backends).
 
 For a fresh install, perhaps not specifying a version is best: `pip install social-auth-app-django`
 
