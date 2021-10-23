@@ -57,3 +57,12 @@ Authentication examples using Facebook, Twitter, and Google are included.
 
 ---
 **Notes**
+
+* Follow system using many-to-many relationships with an intermediary model.
+* Activity stream using generic relations
+* Django signals – signal receiver function to denormalize related object counts
+* Install and configure Redis, Python bindings for Redis
+## Usefull Commands
+Installing WSL : `wsl –install`
+Installing Redis Python Bindings : `pip install redis`
+Installing Reedis `sudo apt-get install redis-server`
