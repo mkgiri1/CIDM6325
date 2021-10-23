@@ -24,12 +24,13 @@ Social-auth is very capable [python-social-auth](https://python-social-auth.read
 
 For a fresh install, perhaps not specifying a version is best: `pip install social-auth-app-django`
 
-***named hosts*** 
-We Mustindicate to Django what IPs or hosts it is permitted to operate on:
+***named hosts***
+
+We Must indicate to Django what IPs or hosts it is permitted to operate on:
 
 `ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']`
 
-When we are in DEBUG mode, all traffic is allowed, but when we deploy, it will be a different matter.
+When we are in DEBUG mode, all traffic is allowed.
 
 ***HTTPS Required***
 
