@@ -39,3 +39,21 @@ Setting up [RunServerPlus]() for an extended development experience.
 **Social Backends**
 
 Authentication examples using Facebook, Twitter, and Google are included.
+
+## Images & bookmarking
+
+---
+**Notes**
+
+* models with many-to-many relationships -> Django ORM handles [many-to-many relationships](https://docs.djangoproject.com/en/3.0/topics/db/examples/many_to_many/)
+* jQuery with Django - to build a JavaScript bookmarklet to share images from other websites into our site
+* image thumbnails - Using the easy-thumbnails library -> [Easy thumbnails](https://easy-thumbnails.readthedocs.io/en/latest/) 
+* AJAX views with jQuery - pagination to the image list view -> [infinite scroll](https://www.seoclarity.net/blog/pagination-vs-infinite-scroll)
+* command to run app with RunServerPlus : `python manage.py runserver_plus --cert-file cert.crt`
+* django provides an ability to detect whether a POST (or any HTTP request) was made with [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) using the [`is_ajax`](https://docs.djangoproject.com/en/3.1/ref/csrf/) method, we simplify this with a [Python Decorator](https://www.python.org/dev/peps/pep-0318/)
+
+
+## Tracking & Following
+
+---
+**Notes**
