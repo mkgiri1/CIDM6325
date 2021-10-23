@@ -1,14 +1,14 @@
 ## Bookmark App using Django
 
 ---
-
-* There are a number of pre-built CBVs for authentication that we should use for [user authentication in Django](https://docs.djangoproject.com/en/3.1/topics/auth/).
+**Notes**
 
 * Updating conda itself with `conda update conda`
 * Initial ***miniconda*** virtual environment : `conda create -n your_env python=x.x.x`
 * Activating virtual environments : `conda activate your_env`
 * once active, use `pip install` as normal
 * upgrade a pip package this way: `pip install package_name --upgrade`
+* There are a number of pre-built CBVs for authentication that we should use for [user authentication in Django](https://docs.djangoproject.com/en/3.1/topics/auth/).
 
 **Extending the User Model**
 
