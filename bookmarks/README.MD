@@ -24,8 +24,8 @@ Social-auth is very capable [python-social-auth](https://python-social-auth.read
 
 For a fresh install, perhaps not specifying a version is best: `pip install social-auth-app-django`
 
-***NOTE*** please note the `hosts` entry mentioned in Chapter 4. 
-Using named hosts, it is necessary to indicate to Django what IPs or hosts it is permitted to operate on:
+***named hosts*** 
+We Mustindicate to Django what IPs or hosts it is permitted to operate on:
 
 `ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']`
 
