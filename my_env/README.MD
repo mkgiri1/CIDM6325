@@ -43,3 +43,13 @@ DATABASES = {
 }
 ```
 
+## Enhancements of Blog with Advanced Features e.g
+* Email
+* Comments
+* Tags and metadata
+* Recommendations
+* Custom template tags and filters
+* Sitemap and syndication (both useful for SEO)
+* Full-text search in Postgres (will be difficult to do on desktop)
+
+
