@@ -25,3 +25,21 @@ INSTALLED_APPS is a setting which tells Django which applications are active for
 * `python manage.py makemigrations blog`
 * `python manage.py migrate`
 
+**gmail and smtp**
+
+[App Passwords](https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637344913016438884-914897482&rd=1).
+**Settings**
+
+The settings file needs to be adjusted to use Postgres.
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blog',
+        'USER': 'blog',
+        'PASSWORD': '*****',
+    }
+}
+```
+
